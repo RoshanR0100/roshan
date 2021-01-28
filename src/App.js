@@ -18,7 +18,6 @@ class App extends Component {
       <div className="App">        
         <Home
           id="home" /> 
-          <br></br>
         <Navbar />          
         <Section
           title="About Me"
@@ -31,8 +30,7 @@ class App extends Component {
           subtitle="Hello"          
           dark={false}
           id="section2"          
-        >
-          
+        >         
           
         </Section2>
         <Section3
