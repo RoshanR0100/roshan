@@ -17,7 +17,7 @@ export default function Section1({ dark, id }) {
   return (
     <div className={"section" + (dark ? " section-dark" : "")}>
       <div className="section-content" id={id}>        
-        <img src={profile} width="120" />
+        <img src={profile} width="200" />
         <h1 style={{fontSize:40, color:"#585858"}}>
             About Me
         </h1>
