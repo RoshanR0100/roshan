@@ -107,6 +107,18 @@
   font-size:"500px";
   
 }
+.home{
+  min-height: 100%;
+}
+.section{
+  min-height: 100%;
+}
+.section2{
+ min-height: 100%;
+}
+.section3{
+  min-height: 100%;
+}
 .footer{
   height: 100%;
   padding-bottom: 25px;

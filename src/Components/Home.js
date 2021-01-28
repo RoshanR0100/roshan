@@ -12,7 +12,7 @@ export default function Home({id }) {
       <div className="container-fluid homepage-bgimage" id={id}>
         <br></br>          
             <div className="textthingy">
-                <div class="typewriter">
+                <div className="typewriter">
                     <h1>"Hello World" </h1>
                 </div>
             </div>            
@@ -32,7 +32,7 @@ export default function Home({id }) {
                                 duration={500}>
                 <br></br>
                 <br></br>
-                <div class="wrapper">
+                <div className="wrapper">
                     <a id="buttonthingy" href="#"><span>Click Me!</span></a>
                 </div>                
             </Link>

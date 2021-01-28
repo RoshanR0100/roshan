@@ -14,8 +14,8 @@ export default function Section2({ id }) {
   return (
     <div className="Section2" style={{backgroundColor:"grey"}}>
       <div className="section-content" id={id}>        
-        <h1>Projects</h1>            
-        
+        <h1 style={{fontSize:50}}>Projects</h1>           
+        <br></br>
         <Card className="text-center" style={{ marginLeft:150, maxWidth:400}} width="100" height="400">
          <Card.Img variant="top" src={glasskat} style={{width:200, height:400, marginLeft:110}} /> 
             <Card.Body>

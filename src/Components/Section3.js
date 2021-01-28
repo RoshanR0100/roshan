@@ -27,6 +27,7 @@ export default function Section3({ dark, id }) {
     <div className={"section" + (dark ? " section-dark" : "")}>
       <div className="section-content" id={id}>
         <h1>Contact Me</h1>
+        <h4>email: roshanramchandani76@gmail.com</h4>
         <form className="contact-form" onSubmit={sendEmail}>
                        
             <textarea name="message" placeholder="Leave your contact details and message." style={{
