@@ -17,25 +17,21 @@ class App extends Component {
     return (
       <div className="App">        
         <Home
-          id="home" /> 
+          id="home" 
+          /> 
         <Navbar />          
         <Section
           title="About Me"
-          subtitle="Hello"
           dark={false}
           id="section1"          
         ></Section>
-        <Section2
-          title="Hello"
-          subtitle="Hello"          
+        <Section2         
           dark={false}
           id="section2"          
         >         
           
         </Section2>
-        <Section3
-          title="Hello"
-          subtitle="Hello"          
+        <Section3         
           dark={true}
           id="section3"
         ></Section3>

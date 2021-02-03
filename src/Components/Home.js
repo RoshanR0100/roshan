@@ -8,9 +8,10 @@ import Button from 'react-bootstrap/Button';
 export default function Home({id }) {
     let styleobj =  {fontSize: 100 }
   return (
-    <div className={("section-home")}>
+    <div className={("section-home")} >
       <div className="container-fluid homepage-bgimage" id={id}>
-        <br></br>          
+        <br></br> 
+        <br></br>         
             <div className="textthingy">
                 <div className="typewriter">
                     <h1>"Hello World" </h1>

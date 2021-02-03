@@ -5,3 +5,6 @@ input::placeholder{
 textarea::placeholder{
     color: #fff;
 }
+.footer{
+    margin-top: 20%
+}

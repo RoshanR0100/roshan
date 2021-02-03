@@ -12,7 +12,7 @@ import 'react-bootstrap';
 export default function Section2({ id }) {
   
   return (
-    <div className="Section2" style={{backgroundColor:"grey"}}>
+    <div className="Section2" style={{backgroundColor:"grey", minHeight:100}}>
       <div className="section-content" id={id}>        
         <h1 style={{fontSize:50}}>Projects</h1>           
         <br></br>

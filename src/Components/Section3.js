@@ -42,6 +42,8 @@ export default function Section3({ dark, id }) {
         }}/>            
             <Button className="rounded-0 z-depth-5" size="lg" variant="dark" type="submit" style={{marginTop:30}} value="Send">SUBMIT</Button>
         </form>
+        <br></br>
+        <br></br>
         <Link 
             to="home"
             spy={true}
@@ -54,6 +56,8 @@ export default function Section3({ dark, id }) {
    />
 </Link>
       </div>
+      <br></br>
+      <br></br>
       <br></br>
       <br></br>
       <footer id="footer" >
