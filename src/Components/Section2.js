@@ -13,11 +13,11 @@ export default function Section2({ id }) {
   
   return (
     <div className="Section2" style={{backgroundColor:"grey", minHeight:100}}>
-      <div className="section-content" id={id}>        
+      <div className="flexbox-container" id={id}>        
         <h1 style={{fontSize:50}}>Projects</h1>           
         <br></br>
-        <Card className="text-center" style={{ marginLeft:150, maxWidth:400}} width="100" height="400">
-         <Card.Img variant="top" src={glasskat} style={{width:200, height:400, marginLeft:110}} /> 
+        <Card className="flexbox-container text-center" style={{ maxWidth:400}} width="100" height="400">
+         <Card.Img className="flexbox-container" variant="top" src={glasskat} style={{width:200, height:400, justifyContent:"center"}} /> 
             <Card.Body>
             <Card.Title>
               GlassKat

@@ -16,17 +16,17 @@ import './section.css';
 export default function Section1({ dark, id }) {
   return (
     <div className={"section" + (dark ? " section-dark" : "")} style={{minHeight:100, paddingBottom:35}}>
-      <div className="section-content" id={id}>        
-        <img src={profile} width="500" />
+      <div className="flexbox-container" id={id}>        
+        <img className="flexbox-item-1" src={profile} width="500" />
         <h1 style={{fontSize:40, color:"#585858"}}>
             About Me
         </h1>
-        <h5 style={{color:"#585858"}}>
+        <h5 className={"flexbox-item-2"} style={{color:"#585858"}}>
             I'm currently getting a diploma in Information Technology. 
             <br></br>I'm based in Singapore.
              I want to learn more about all things technology, but I'm particularly interested in machine learning.
         </h5>
-        <div>        
+        <div className="flexbox-item-1" >        
             <FaAngular size="90"></FaAngular>
             <FaNodeJs size="90"></FaNodeJs>
             <AiFillHtml5 size="90"></AiFillHtml5>
