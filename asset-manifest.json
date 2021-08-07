@@ -1,30 +1,31 @@
 {
   "files": {
     "main.css": "/roshan/static/css/main.b5cdcb79.chunk.css",
-    "main.js": "/roshan/static/js/main.c8995f2a.chunk.js",
-    "main.js.map": "/roshan/static/js/main.c8995f2a.chunk.js.map",
+    "main.js": "/roshan/static/js/main.acc59bda.chunk.js",
+    "main.js.map": "/roshan/static/js/main.acc59bda.chunk.js.map",
     "runtime-main.js": "/roshan/static/js/runtime-main.63f6c184.js",
     "runtime-main.js.map": "/roshan/static/js/runtime-main.63f6c184.js.map",
     "static/css/2.39879d71.chunk.css": "/roshan/static/css/2.39879d71.chunk.css",
-    "static/js/2.2a599d18.chunk.js": "/roshan/static/js/2.2a599d18.chunk.js",
-    "static/js/2.2a599d18.chunk.js.map": "/roshan/static/js/2.2a599d18.chunk.js.map",
+    "static/js/2.2e9223a0.chunk.js": "/roshan/static/js/2.2e9223a0.chunk.js",
+    "static/js/2.2e9223a0.chunk.js.map": "/roshan/static/js/2.2e9223a0.chunk.js.map",
     "static/js/3.abf34ca6.chunk.js": "/roshan/static/js/3.abf34ca6.chunk.js",
     "static/js/3.abf34ca6.chunk.js.map": "/roshan/static/js/3.abf34ca6.chunk.js.map",
     "index.html": "/roshan/index.html",
     "static/css/2.39879d71.chunk.css.map": "/roshan/static/css/2.39879d71.chunk.css.map",
     "static/css/main.b5cdcb79.chunk.css.map": "/roshan/static/css/main.b5cdcb79.chunk.css.map",
-    "static/js/2.2a599d18.chunk.js.LICENSE.txt": "/roshan/static/js/2.2a599d18.chunk.js.LICENSE.txt",
+    "static/js/2.2e9223a0.chunk.js.LICENSE.txt": "/roshan/static/js/2.2e9223a0.chunk.js.LICENSE.txt",
     "static/media/ITADScreenshot.be44e2d1.jpg": "/roshan/static/media/ITADScreenshot.be44e2d1.jpg",
     "static/media/ThePlanScreenshot.fb2a460a.jpg": "/roshan/static/media/ThePlanScreenshot.fb2a460a.jpg",
     "static/media/glasskat-screenshot.b0eb98d7.jpg": "/roshan/static/media/glasskat-screenshot.b0eb98d7.jpg",
+    "static/media/image1.90eecc97.png": "/roshan/static/media/image1.90eecc97.png",
     "static/media/logo.6ce24c58.svg": "/roshan/static/media/logo.6ce24c58.svg",
     "static/media/profile.98a91273.jpg": "/roshan/static/media/profile.98a91273.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.63f6c184.js",
     "static/css/2.39879d71.chunk.css",
-    "static/js/2.2a599d18.chunk.js",
+    "static/js/2.2e9223a0.chunk.js",
     "static/css/main.b5cdcb79.chunk.css",
-    "static/js/main.c8995f2a.chunk.js"
+    "static/js/main.acc59bda.chunk.js"
   ]
 }
