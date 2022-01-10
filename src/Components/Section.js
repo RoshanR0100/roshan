@@ -10,6 +10,7 @@ import {SiCsharp} from 'react-icons/si';
 import {FaReact} from 'react-icons/fa';
 import {SiTypescript} from 'react-icons/si';
 import {SiJavascript} from 'react-icons/si';
+import {FaUnity} from 'react-icons/fa';
 import '../App.css';
 import './section.css';
 
@@ -36,7 +37,8 @@ export default function Section1({ dark, id }) {
             <SiCsharp size="90"></SiCsharp>
             <SiJavascript size="90"></SiJavascript>
             <FaReact className="logo" size="90"></FaReact>
-            <SiTypescript size="90"></SiTypescript>                        
+            <SiTypescript size="90"></SiTypescript>   
+            <FaUnity size="90"></FaUnity>                     
         </div>
         <br></br>
       </div>

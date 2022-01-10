@@ -8,7 +8,7 @@ import Button from "react-bootstrap/Button";
 import glasskat from '../glasskat-screenshot.jpg';
 import Modal from 'react-bootstrap/Modal';
 import 'react-bootstrap';
-import trips from '../image1.png';
+import trips from '../image3.png';
 
 export default function Section2({ id }) {
   
@@ -18,7 +18,7 @@ export default function Section2({ id }) {
       <br></br>      
         <h1 style={{fontSize:50, color:"white"}}>Projects</h1>           
         <br></br>
-        <Card className="flexbox-container text-center" style={{ maxWidth:400}} width="100" height="400">
+        <Card className="flexbox-container text-center" style={{ maxWidth: 900 }} width="900" height="400">
          <Card.Img className="flexbox-container" variant="top" src={glasskat} style={{width:200, height:400, justifyContent:"center"}} /> 
             <Card.Body>
             <Card.Title>
@@ -36,7 +36,7 @@ export default function Section2({ id }) {
             </Card.Body>
           </Card>
           <br></br>
-          <Card className="flexbox-container text-center" style={{ maxWidth:400}} width="100" height="400">
+          <Card className="flexbox-container text-center" style={{ maxWidth:900}} width="500" height="400">
          <Card.Img className="flexbox-container" variant="top" src={trips} style={{ justifyContent:"center"}} /> 
             <Card.Body>
             <Card.Title>
