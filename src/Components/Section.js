@@ -27,6 +27,9 @@ export default function Section1({ dark, id }) {
             <br></br>I'm based in Singapore.
              I want to learn more about all things technology, but I'm particularly interested in machine learning.
         </h5>
+        <h4 className={"flexbox-item-2"} style={{color:"#585858"}>
+          Languages and Frameworks I know and have made projects in:
+        </h4>
         <div className="flexbox-item-1" >        
             <FaAngular size="90"></FaAngular>
             <FaNodeJs size="90"></FaNodeJs>
