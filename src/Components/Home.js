@@ -7,7 +7,7 @@ export default function Home({id }) {
     let styleobj =  {fontSize: 100 }
   return (
     <div className={("Home")} id = {id}>     
-        <div className="textthingy" style={{flex: 3}}>
+        <div className="textthingy">
             <div className="typewriter">
                 <h1>"Hello World" </h1>
             </div>
