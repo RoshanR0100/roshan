@@ -6,7 +6,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 export default function Home({id }) {
     let styleobj =  {fontSize: 100 }
   return (
-    <div className={(" container-fluid section-home")} >     
+    <div className={("Home")} id = {id}>     
         <div className="textthingy" style={{flex: 3}}>
             <div className="typewriter">
                 <h1>"Hello World" </h1>
@@ -19,9 +19,7 @@ export default function Home({id }) {
             to="AboutMe"
             spy={true}
             smooth={true}
-            offset={-70}
-            duration={500}
-            style = {{flex:3}}>
+            duration={500}>
           <div className="wrapper">
               <a id="buttonthingy" href="#"><span>Click Me!</span></a>
           </div>                

@@ -1,20 +1,13 @@
 .AboutMe {
   display: flex;
-  height:fit-content;
+  height:100vh;
   width: fit-content;
-  min-height: 100vh;
-  min-width: 100vh;
+  min-height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   padding: 2%;
-}
-
-.Wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
 
 .Profile {
@@ -23,7 +16,7 @@
   flex: 3;
   padding: 2%;
   text-align: center;
-  width: 100px;
+  width: 500px;
 }
 
 .About {

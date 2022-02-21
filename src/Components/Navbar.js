@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import {AiOutlineCode} from "react-icons/ai";
 import { Link, animateScroll as scroll } from "react-scroll";
-import {IconContext} from "react-icons";
 
 export default class Navbar extends Component {
   render() {
@@ -10,62 +9,58 @@ export default class Navbar extends Component {
       <nav className="nav" id="navbar">
         
         <div className="nav-content">
-        
-          
-            <Link to="home"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}>
+            <Link to="Home"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}>
               <AiOutlineCode
                 className="nav-logo"
                 alt="Logo.svg"
                 color="lightblue"
                />
             </Link>
-          
-          
           <ul className="nav-items">
             <li className = "nav-item" >
                 <Link activeClass="active"
-                        to="home"
+                        to="Home"
                         spy={true}
                         smooth={true}
                         offset={-70}
                         duration={500}>
-                    Home
+                  Home
+                </Link>
+              </li>
+              <li className = "nav-item">
+                  <Link activeClass="active"
+                      to="AboutMe"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}>
+                  About
                   </Link>
-                </li>
-                <li className = "nav-item">
-                    <Link activeClass="active"
-                        to="AboutMe"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}>
-                    About
-                    </Link>
-                </li>
-                <li className = "nav-item">
-                    <Link activeClass="active"
-                        to="Projects"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}>
-                    Projects
-                    </Link>
-                </li>
-                <li className = "nav-item">
-                    <Link activeClass="active"
-                        to="Contact"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}>
-                      Contact
-                    </Link>
-                </li>
+              </li>
+              <li className = "nav-item">
+                  <Link activeClass="active"
+                      to="Projects"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}>
+                  Projects
+                  </Link>
+              </li>
+              <li className = "nav-item">
+                <Link activeClass="active"
+                    to="Contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}>
+                  Contact
+                </Link>
+              </li>
           </ul>
         </div>
       </nav>

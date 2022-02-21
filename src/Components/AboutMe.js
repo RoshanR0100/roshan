@@ -16,8 +16,7 @@ import './AboutMe.css';
 
 export default function AboutMe({ id }) {
   return (
-    <div className={("AboutMe")} style={{minHeight:100, paddingBottom:35}} id = {id}> 
-        <div className={"Wrapper"}>
+    <div className={("AboutMe")} id = {id}> 
             <img className={"Profile"} src={profile} />
             <div className={"About"}>
                 <h1>
@@ -33,7 +32,7 @@ export default function AboutMe({ id }) {
                     machine learning.
                 </h5>
             </div>    
-        </div>       
+      
         <div className={"Languages"}>    
             <h4>
               Languages and Frameworks I know and have made projects in:

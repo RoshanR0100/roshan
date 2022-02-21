@@ -1,4 +1,4 @@
-.section-home{
+.Home{
   background: lightgray;
   height: 100vh;
   width: fit-content;
@@ -17,8 +17,7 @@
 }
 .wrapper{
   position: relative;
-  transform: translate(-50%, -50%);
-  margin-left: 60%;
+  margin-left: 43%;
 }
 
 #buttonthingy{
