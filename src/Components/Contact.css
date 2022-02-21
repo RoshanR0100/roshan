@@ -1,0 +1,51 @@
+.Contact{
+    background: rgb(44, 44, 44);
+    display: flex;
+    margin: 0;
+    padding: 2%;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+.Title{
+    flex: 3;
+    color: white;
+}
+
+.Email{
+    flex: 3;
+}
+
+.ContactForm{
+    flex: 3;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 500px;
+}
+
+input::placeholder{
+    color: #fff;
+}
+textarea::placeholder{
+    color: #fff;
+}
+
+.TextArea {
+    width: "500px";
+    padding-left: "8px";
+    padding-top: "6px";
+    padding-bottom: "6px";
+    border-color: "white";
+    margin-top:10;
+    background-color: "gray";  
+    color: "white";
+}
+.footer{
+    margin-top: 20%
+}

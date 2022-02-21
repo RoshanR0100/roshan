@@ -38,7 +38,7 @@ export default class Navbar extends Component {
                 </li>
                 <li className = "nav-item">
                     <Link activeClass="active"
-                        to="section1"
+                        to="AboutMe"
                         spy={true}
                         smooth={true}
                         offset={-70}
@@ -48,7 +48,7 @@ export default class Navbar extends Component {
                 </li>
                 <li className = "nav-item">
                     <Link activeClass="active"
-                        to="section2"
+                        to="Projects"
                         spy={true}
                         smooth={true}
                         offset={-70}
@@ -58,7 +58,7 @@ export default class Navbar extends Component {
                 </li>
                 <li className = "nav-item">
                     <Link activeClass="active"
-                        to="section3"
+                        to="Contact"
                         spy={true}
                         smooth={true}
                         offset={-70}

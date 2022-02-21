@@ -1,47 +1,31 @@
 import React from "react";
 
 import "../Components/Home.css";
-import {AiOutlineArrowRight} from "react-icons/ai";
 import { Link, animateScroll as scroll } from "react-scroll";
-import Button from 'react-bootstrap/Button';
 
 export default function Home({id }) {
     let styleobj =  {fontSize: 100 }
   return (
-    <div className={("section-home")} >
-      <div className="container-fluid homepage-bgimage" id={id}>
-        <br></br> 
-        <br></br>         
-            <div className="textthingy">
-                <div className="typewriter">
-                    <h1>"Hello World" </h1>
-                </div>
-            </div>            
-            <br></br>               
-        <h1 style={{fontSize:40, color:"black"}}>My Name is</h1>
-        <h1 style={{fontSize:60, color:"#5ab5d1" }}>Roshan Ramchandani</h1>
-        <h4 style={{fontSize:40, color:"black"}}>Information Technology Student, Aspiring Software Engineer.</h4>
-            <br></br>                   
-            <br></br>
-            <br></br>
-            <br></br>
-            <Link activeClass="active"
-                                to="section1"
-                                spy={true}
-                                smooth={true}
-                                offset={-70}
-                                duration={500}>
-                <br></br>
-                <br></br>
-                <div className="wrapper">
-                    <a id="buttonthingy" href="#"><span>Click Me!</span></a>
-                </div>                
-            </Link>
-            
-            
-            <br></br>                    
+    <div className={(" container-fluid section-home")} >     
+        <div className="textthingy" style={{flex: 3}}>
+            <div className="typewriter">
+                <h1>"Hello World" </h1>
+            </div>
+        </div>                       
+        <h1 style={{fontSize:40, color:"black", flex: 3}}>My Name is</h1>
+        <h1 style={{fontSize:60, color:"#5ab5d1", flex: 3}}>Roshan Ramchandani</h1>
+        <h4 style={{fontSize:40, color:"black", flex: 3}}>Information Technology Student, Aspiring Software Engineer.</h4>
+        <Link activeClass="active"
+            to="AboutMe"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            style = {{flex:3}}>
+          <div className="wrapper">
+              <a id="buttonthingy" href="#"><span>Click Me!</span></a>
+          </div>                
+        </Link>                        
       </div>
-      
-    </div>
   );
 }

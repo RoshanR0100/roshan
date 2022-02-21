@@ -1,0 +1,40 @@
+.Projects{
+    background: lightgray;
+    /* height: fit-content;
+    width: fit-content; */
+    display: flex;
+    margin: 0;
+    padding: 2%;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    min-width: 100vh;
+    align-items: center;
+}
+
+.Title{
+    color: black;
+    font-weight: 900;
+}
+
+.GlassKat{
+    flex: 3;
+    width: 100vh;
+    height: 100vh;
+    margin: 1%;
+    filter: drop-shadow(8px 8px 8px darkgrey) 
+}
+
+.TripsManager{
+    flex: 3;
+    width: 100vh;
+    height:100vh;
+    margin: 1%;
+    filter: drop-shadow(8px 8px 8px darkgrey)
+}
+
+.CardImage{
+    max-height: 400vh;
+    max-width: 50vh;
+}
