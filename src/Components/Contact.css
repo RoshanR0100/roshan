@@ -15,6 +15,7 @@
 .Title{
     flex: 3;
     color: white;
+    text-emphasis-color: white;
 }
 
 .Email{

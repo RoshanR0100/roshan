@@ -25,7 +25,7 @@ export default function Contact({ id }) {
 
   return (
     <div className={"Contact"} id={id}>
-        <h1 className="Title">Contact Me</h1>
+        <h1 className="Title" style={{color: "white"}}>Contact Me</h1>
         <h4 className="Email">E-mail: roshanramchandani76@gmail.com</h4>
         <form className="ContactForm" onSubmit={sendEmail}>
             <textarea className = "TextArea" name="message" placeholder="Leave your contact details and message." />            

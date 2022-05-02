@@ -6,8 +6,7 @@ export default class Navbar extends Component {
   render() {
     return (
       
-      <nav className="nav" id="navbar">
-        
+      <nav className="nav" id="navbar" style={{marginBottom: '5%'}}>
         <div className="nav-content">
             <Link to="Home"
                   spy={true}

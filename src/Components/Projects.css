@@ -15,18 +15,9 @@
 
 .Title{
     color: black;
-    font-weight: 900;
+    font-weight: bold;
 }
-
-.GlassKat{
-    flex: 3;
-    width: 100vh;
-    height: 100vh;
-    margin: 1%;
-    filter: drop-shadow(8px 8px 8px darkgrey) 
-}
-
-.TripsManager{
+.Card{
     flex: 3;
     width: 100vh;
     height:100vh;
@@ -35,6 +26,13 @@
 }
 
 .CardImage{
-    max-height: 400vh;
-    max-width: 50vh;
+    max-height: 500vh;
+    max-width: 40vw;
+    margin: 1%;
+}
+
+.Body{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
