@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/roshan/static/css/main.717691b2.chunk.css",
-    "main.js": "/roshan/static/js/main.1e4d06da.chunk.js",
-    "main.js.map": "/roshan/static/js/main.1e4d06da.chunk.js.map",
-    "runtime-main.js": "/roshan/static/js/runtime-main.bd07ec0f.js",
-    "runtime-main.js.map": "/roshan/static/js/runtime-main.bd07ec0f.js.map",
+    "main.js": "/roshan/static/js/main.24bbd2b7.chunk.js",
+    "main.js.map": "/roshan/static/js/main.24bbd2b7.chunk.js.map",
+    "runtime-main.js": "/roshan/static/js/runtime-main.510cbb13.js",
+    "runtime-main.js.map": "/roshan/static/js/runtime-main.510cbb13.js.map",
     "static/css/2.150d169a.chunk.css": "/roshan/static/css/2.150d169a.chunk.css",
-    "static/js/2.59101065.chunk.js": "/roshan/static/js/2.59101065.chunk.js",
-    "static/js/2.59101065.chunk.js.map": "/roshan/static/js/2.59101065.chunk.js.map",
-    "static/js/3.148a4734.chunk.js": "/roshan/static/js/3.148a4734.chunk.js",
-    "static/js/3.148a4734.chunk.js.map": "/roshan/static/js/3.148a4734.chunk.js.map",
+    "static/js/2.ce97f5c3.chunk.js": "/roshan/static/js/2.ce97f5c3.chunk.js",
+    "static/js/2.ce97f5c3.chunk.js.map": "/roshan/static/js/2.ce97f5c3.chunk.js.map",
+    "static/js/3.8e537cbb.chunk.js": "/roshan/static/js/3.8e537cbb.chunk.js",
+    "static/js/3.8e537cbb.chunk.js.map": "/roshan/static/js/3.8e537cbb.chunk.js.map",
     "index.html": "/roshan/index.html",
     "static/css/2.150d169a.chunk.css.map": "/roshan/static/css/2.150d169a.chunk.css.map",
     "static/css/main.717691b2.chunk.css.map": "/roshan/static/css/main.717691b2.chunk.css.map",
-    "static/js/2.59101065.chunk.js.LICENSE.txt": "/roshan/static/js/2.59101065.chunk.js.LICENSE.txt",
+    "static/js/2.ce97f5c3.chunk.js.LICENSE.txt": "/roshan/static/js/2.ce97f5c3.chunk.js.LICENSE.txt",
     "static/media/SousChefBanner.d061ab11.png": "/roshan/static/media/SousChefBanner.d061ab11.png",
     "static/media/glasskat-screenshot.b0eb98d7.jpg": "/roshan/static/media/glasskat-screenshot.b0eb98d7.jpg",
     "static/media/image3.9ff13c7a.png": "/roshan/static/media/image3.9ff13c7a.png",
     "static/media/profile.98a91273.jpg": "/roshan/static/media/profile.98a91273.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bd07ec0f.js",
+    "static/js/runtime-main.510cbb13.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.59101065.chunk.js",
+    "static/js/2.ce97f5c3.chunk.js",
     "static/css/main.717691b2.chunk.css",
-    "static/js/main.1e4d06da.chunk.js"
+    "static/js/main.24bbd2b7.chunk.js"
   ]
 }
