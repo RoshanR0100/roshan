@@ -7,6 +7,7 @@ import trips from '../image3.png';
 import './Projects.css';
 import scb from '../Assets/SousChefBanner.png'
 import {FaGithubSquare, FaGooglePlay} from "react-icons/fa";
+import {CgWebsite} from 'react-icons/cg';
 
 export default function Projects({ id }) {
   
@@ -34,7 +35,13 @@ export default function Projects({ id }) {
               <br/>
               <Button href="https://play.google.com/store/apps/details?id=com.roshan0100.souschef&gl=US">
                   <FaGooglePlay size="30" style={{margin: 5}} />
-                  View it in Google Play tore
+                  View it in Google Play store
+              </Button>
+              <br/>
+              <br/>
+              <Button href="https://sous-chef-web.netlify.app/">
+                  <CgWebsite size="30" style={{margin: 5}} />
+                  View the website
               </Button>
             </Card.Body>
           </Card>
