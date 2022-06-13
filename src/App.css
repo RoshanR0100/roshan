@@ -32,6 +32,12 @@
   }
 }
 
+body {
+  display: flex;
+  overflow-x: scroll;
+  white-space: wrap;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

@@ -22,6 +22,7 @@ export default function Projects({ id }) {
               </Card.Title>
               <Card.Text>
                 I made an app that helps you find a recipe by inputing what ingredients you have. 
+                <br />
                 The app is currently only available on the google play store, but I am working on a website version for iPhone users.
                 <br />
                 Languages used: JSX, React-Native framework, CSS
@@ -71,6 +72,7 @@ export default function Projects({ id }) {
               </Card.Title>
                 <Card.Text>
                   A trips manager where you can see the location and description of the trips.
+                  <br />
                   I made this app using ASP.NET Core and react. It has some basic CRUD operations.
                   <br />
                   Languagues used: C#, JSX, Javascript, HTML, CSS

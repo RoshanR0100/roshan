@@ -14,7 +14,7 @@ export default function Home({id }) {
         </div>                       
         <h1 style={{fontSize:40, color:"black", flex: 3}}>My Name is</h1>
         <h1 style={{fontSize:60, color:"#5ab5d1", flex: 3}}>Roshan Ramchandani</h1>
-        <h4 style={{fontSize:40, color:"black", flex: 3}}>Information Technology Student, Aspiring Software Engineer.</h4>
+        <h4 style={{fontSize:40, color:"black", flex: 3}}>Aspiring Software Engineer.</h4>
         <Link activeClass="active"
             to="AboutMe"
             spy={true}

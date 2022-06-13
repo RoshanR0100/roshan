@@ -24,12 +24,9 @@ export default function AboutMe({ id }) {
                 </h1>
                 <br />
                 <h5 >
-                    <br />
-                    I'm an Information Technology Student at Temasek Polytechnic, based in Singapore. 
-                    <br />
-                    <br />
-                    I am a full-stack developer, but I'm looking to learn more about back-end development and 
+                    I am a full-stack developer based in Singapore, and I'm looking to learn more about back-end development and 
                     machine learning.
+                    I recently graduated from Temasek Polytechnic with a Diploma in Information Technology.
                 </h5>
             </div>    
       
