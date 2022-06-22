@@ -1,9 +1,9 @@
 .App {
   text-align: center;
   width:100%;
-  min-width:fit-content(100vh);
+  /* min-width:fit-content(100vh); */
   height:100%;
-  min-height: fit-content(100vh);
+  /* min-height: fit-content(100vh); */
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -32,11 +32,11 @@
   }
 }
 
-body {
+/* body {
   display: flex;
   overflow-x: scroll;
   white-space: wrap;
-}
+} */
 
 .App-header {
   background-color: #282c34;

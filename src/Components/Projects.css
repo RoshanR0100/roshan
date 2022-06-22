@@ -20,7 +20,7 @@
 .Card{
     flex: 3;
     width: 100vh;
-    height:100vh;
+    height: fit-content;
     margin: 1%;
     filter: drop-shadow(8px 8px 8px darkgrey)
 }
